@@ -15,14 +15,14 @@ from PySide6.QtWidgets import QApplication
 import ctypes
 
 # Import other modules
-from converter_tab import ConverterTab
-from player_tab import PlayerTab
-from search_tab import SearchTab
-from upload_tab import UploadYTGTab
-from daily_logs_tab import DailyLogsTab
-from llm_tab import LLMTab
-from text_to_image_tab import TextToImageTab
-from command_tab import CommandTab
+from modules.converter_tab import ConverterTab
+from modules.player_tab import PlayerTab
+from modules.search_tab import SearchTab
+from modules.upload_tab import UploadYTGTab
+from modules.daily_logs_tab import DailyLogsTab
+from modules.llm_tab import LLMTab
+from modules.text_to_image_tab import TextToImageTab
+from modules.command_tab import CommandTab
 
 # Constants
 MOBILE_UPLOADS_DIR = os.path.join(os.path.dirname(__file__), "../mobile_uploads")

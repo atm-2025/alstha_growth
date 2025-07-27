@@ -6,8 +6,8 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt, QTimer, QUrl
 from PySide6.QtMultimedia import QMediaPlayer, QAudioOutput
 from PySide6.QtMultimediaWidgets import QVideoWidget
-from workers import StreamingWorker
-from utils import format_time
+from modules.workers import StreamingWorker
+from modules.utils import format_time
 
 class StreamingMediaPlayer(QWidget):
     """Advanced streaming media player with chunked loading and buffering"""

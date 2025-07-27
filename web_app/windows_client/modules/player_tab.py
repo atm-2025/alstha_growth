@@ -10,8 +10,8 @@ from PySide6.QtCore import Qt, QTimer, QUrl, QThread, Signal, QMutex, QWaitCondi
 from PySide6.QtWidgets import QStyle
 from PySide6.QtMultimedia import QMediaPlayer, QAudioOutput
 from PySide6.QtMultimediaWidgets import QVideoWidget
-from streaming_player import StreamingMediaPlayer
-from utils import format_time
+from modules.streaming_player import StreamingMediaPlayer
+from modules.utils import format_time
 
 class SafeMediaWorker(QThread):
     """Thread-safe media worker for loading files"""

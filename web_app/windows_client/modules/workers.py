@@ -3,7 +3,7 @@ import time
 import requests
 import subprocess
 from PySide6.QtCore import QThread, Signal
-from utils import FileWithProgress
+from modules.utils import FileWithProgress
 
 class ConverterWorker(QThread):
     progress_update = Signal(int, int, str, float, float)  # current, total, message, elapsed, est_remaining
