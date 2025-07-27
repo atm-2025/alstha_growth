@@ -1,0 +1,59 @@
+07-12 17:28:23.359  1638  1691 I ActivityTaskManager: Displayed com.alstha.growth/.MainActivity for user 0: +1s103ms
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at com.alstha.growth.MainActivity.testServerConnection(MainActivity.kt:183)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at com.alstha.growth.MainActivity.setupClickListeners$lambda$1(MainActivity.kt:128)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at com.alstha.growth.MainActivity.$r8$lambda$0lTZtkwjYJ0Ok6jGAcaCdb8b9l0(Unknown Source:0)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at com.alstha.growth.MainActivity$$ExternalSyntheticLambda2.onClick(D8$$SyntheticClass:0)
+07-12 17:30:04.112  1638  1691 I ActivityTaskManager: Displayed com.alstha.growth/.MainActivity for user 0: +850ms
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at com.alstha.growth.MainActivity.testServerConnection(MainActivity.kt:183)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at com.alstha.growth.MainActivity.setupClickListeners$lambda$1(MainActivity.kt:128)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at com.alstha.growth.MainActivity.$r8$lambda$0lTZtkwjYJ0Ok6jGAcaCdb8b9l0(Unknown Source:0)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at com.alstha.growth.MainActivity$$ExternalSyntheticLambda2.onClick(D8$$SyntheticClass:0)
+07-12 17:30:06.785  1638  1691 I ActivityTaskManager: Displayed com.alstha.growth/.MainActivity for user 0: +826ms
+07-12 17:30:19.118 13127 13967 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#1(BLAST Consumer)1](id:334700000002,api:4,p:1268,c:13127) queueBuffer: BufferQueue has been abandoned
+07-12 17:30:19.122 13127 13637 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#1(BLAST Consumer)1](id:334700000002,api:4,p:1268,c:13127) dequeueBuffer: BufferQueue has been abandoned
+07-12 17:30:19.157 13127 13970 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#1(BLAST Consumer)1](id:334700000002,api:4,p:1268,c:13127) queueBuffer: BufferQueue has been abandoned
+07-12 17:30:19.196 13127 13970 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#1(BLAST Consumer)1](id:334700000002,api:4,p:1268,c:13127) queueBuffer: BufferQueue has been abandoned
+07-12 17:30:19.224 13127 13970 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#1(BLAST Consumer)1](id:334700000002,api:4,p:1268,c:13127) cancelBuffer: BufferQueue has been abandoned
+07-12 17:30:19.226 13127 13970 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#1(BLAST Consumer)1](id:334700000002,api:4,p:1268,c:13127) cancelBuffer: BufferQueue has been abandoned
+07-12 17:30:19.226 13127 13970 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#1(BLAST Consumer)1](id:334700000002,api:4,p:1268,c:13127) cancelBuffer: BufferQueue has been abandoned
+07-12 17:32:12.965 13127 13967 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#3(BLAST Consumer)3](id:334700000004,api:4,p:1268,c:13127) queueBuffer: BufferQueue has been abandoned
+07-12 17:32:12.991 13127 13967 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#3(BLAST Consumer)3](id:334700000004,api:4,p:1268,c:13127) queueBuffer: BufferQueue has been abandoned
+07-12 17:32:12.993 13127 13967 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#3(BLAST Consumer)3](id:334700000004,api:4,p:1268,c:13127) cancelBuffer: BufferQueue has been abandoned
+07-12 17:32:12.993 13127 13967 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#3(BLAST Consumer)3](id:334700000004,api:4,p:1268,c:13127) cancelBuffer: BufferQueue has been abandoned
+07-12 17:32:12.993 13127 13967 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#3(BLAST Consumer)3](id:334700000004,api:4,p:1268,c:13127) cancelBuffer: BufferQueue has been abandoned
+07-12 17:32:19.875 13127 13967 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#4(BLAST Consumer)4](id:334700000006,api:4,p:1268,c:13127) dequeueBuffer: BufferQueue has been abandoned
+07-12 17:32:19.884 13127 13967 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#4(BLAST Consumer)4](id:334700000006,api:4,p:1268,c:13127) queueBuffer: BufferQueue has been abandoned
+07-12 17:32:19.916 13127 13681 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#4(BLAST Consumer)4](id:334700000006,api:4,p:1268,c:13127) queueBuffer: BufferQueue has been abandoned
+07-12 17:32:19.956 13127 13681 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#4(BLAST Consumer)4](id:334700000006,api:4,p:1268,c:13127) queueBuffer: BufferQueue has been abandoned
+07-12 17:32:19.983 13127 13681 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#4(BLAST Consumer)4](id:334700000006,api:4,p:1268,c:13127) queueBuffer: BufferQueue has been abandoned
+07-12 17:32:19.987 13127 13681 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#4(BLAST Consumer)4](id:334700000006,api:4,p:1268,c:13127) cancelBuffer: BufferQueue has been abandoned
+07-12 17:32:19.988 13127 13681 E BufferQueueProducer: [SurfaceView[com.alstha.growth/com.alstha.growth.MainActivity]#4(BLAST Consumer)4](id:334700000006,api:4,p:1268,c:13127) cancelBuffer: BufferQueue has been abandoned
+07-12 17:32:30.587  1638  1691 I ActivityTaskManager: Displayed com.alstha.growth/.MainActivity for user 0: +881ms
+07-12 17:32:33.696 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.finish(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:64)
+07-12 17:32:33.696 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.referToDocumentsUi(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:52)
+07-12 17:32:33.696 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.onCreate(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:143)
+07-12 17:32:33.698 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.finish(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:64)
+07-12 17:32:33.698 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.referToDocumentsUi(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:52)
+07-12 17:32:33.698 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.onCreate(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:143)
+07-12 17:32:33.699 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.finish(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:64)
+07-12 17:32:33.699 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.referToDocumentsUi(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:52)
+07-12 17:32:33.699 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.onCreate(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:143)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at com.alstha.growth.MainActivity.uploadFile(MainActivity.kt:272)
+07-12 17:32:39.767  1638  1691 I ActivityTaskManager: Displayed com.alstha.growth/.MainActivity for user 0: +951ms
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at com.alstha.growth.MainActivity.testServerConnection(MainActivity.kt:183)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at com.alstha.growth.MainActivity.setupClickListeners$lambda$1(MainActivity.kt:128)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at com.alstha.growth.MainActivity.$r8$lambda$0lTZtkwjYJ0Ok6jGAcaCdb8b9l0(Unknown Source:0)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at com.alstha.growth.MainActivity$$ExternalSyntheticLambda2.onClick(D8$$SyntheticClass:0)
+07-12 17:32:45.248  1638  1691 I ActivityTaskManager: Displayed com.alstha.growth/.MainActivity for user 0: +920ms
+07-12 17:38:59.961  1638  1691 I ActivityTaskManager: Displayed com.alstha.growth/.MainActivity for user 0: +1s40ms
+07-12 17:40:07.143 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.finish(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:64)
+07-12 17:40:07.143 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.referToDocumentsUi(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:52)
+07-12 17:40:07.143 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.onCreate(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:143)
+07-12 17:40:07.145 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.finish(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:64)
+07-12 17:40:07.145 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.referToDocumentsUi(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:52)
+07-12 17:40:07.145 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.onCreate(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:143)
+07-12 17:40:07.147 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.finish(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:64)
+07-12 17:40:07.147 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.referToDocumentsUi(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:52)
+07-12 17:40:07.147 19553 19553 W PhotopickerUserMonitor: 	at com.android.photopicker.MainActivity.onCreate(go/retraceme 428bc083233b2da35cf971c4fc33b6681888c68f445686df87cf47e8bf83b429:143)
+07-12 17:50:09.950  1638  1691 I ActivityTaskManager: Displayed com.alstha.growth/.MainActivity for user 0: +1s23ms
+07-12 17:52:10.092  1638  1691 I ActivityTaskManager: Displayed com.alstha.growth/.MainActivity for user 0: +1s129ms

@@ -1,0 +1,825 @@
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: FATAL EXCEPTION: main
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: Process: com.alstha.growth, PID: 5836
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no scheme was found for 192.16...
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at okhttp3.HttpUrl$Builder.parse$okhttp(HttpUrl.kt:1261)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at okhttp3.HttpUrl$Companion.get(HttpUrl.kt:1634)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at okhttp3.HttpUrl.get(Unknown Source:2)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at retrofit2.Retrofit$Builder.baseUrl(Retrofit.java:506)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at com.alstha.growth.FileListFragment.loadFileList(FileListFragment.kt:86)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at com.alstha.growth.FileListFragment.onViewCreated(FileListFragment.kt:53)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at androidx.fragment.app.Fragment.performViewCreated(Fragment.java:3147)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at androidx.fragment.app.FragmentStateManager.createView(FragmentStateManager.java:588)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:272)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1943)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1839)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1782)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager$5.run(FragmentManager.java:565)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:1014)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:250)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:340)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9860)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:621)
+07-12 17:08:18.795  5836  5836 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+07-12 17:15:22.134  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:22.147  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:22.155  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:22.200 12900 24722 E msys    : E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=163.70.144.175:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:15:22.206 12900 13456 E MvfstCallbacks.cpp: readError: streamid=0; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:15:22.206 12900 13456 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:15:22.206 12900 13456 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:15:22.206 12900 13456 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:15:22.207 12900 13456 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:15:22.226  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.mainline.primary.libs' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:22.249 12900 13543 E msys    : E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 1, domain: WCIStreamState, subdomain: happyeyeballs: Error Domain=WCIStreamState Code=1 UserInfo=0xb400006d600752d0 {MCFErrorDirectUnderlyingErrorKey=0xb400006e003893d0 "Error Domain=happyeyeballs Code=1"}
+07-12 17:15:22.291  6802  8261 E msgr.msys: E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=163.70.144.39:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:15:22.294  6802  7890 E msgr.msys: E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 2, domain: WCIStreamState, subdomain: MCCWLigerStream: Error Domain=WCIStreamState Code=2 UserInfo=0xc382f5d80 {MCFErrorDirectUnderlyingErrorKey=0xb400006e00089990 "Error Domain=MCCWLigerStream Code=2 UserInfo=0xc382f5cc0 {MCFErrorDirectLocalizedFailureReasonKey=AsyncSocketException: recv() failed (peer=163.70.144.39:5222), type = Internal error, errno = 103 (Software caused connection abort)}"}
+07-12 17:15:22.297  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.wifi' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:22.307  6802  7890 E msgr.msys: E[C 1]MCCLogErrorWithTraceOrQPL(274)=>8/374/3970/65536
+07-12 17:15:22.325  6802  7890 E msgr.msys: E[C 1]MCCLogErrorWithTraceOrQPL(274)=>8/374/3972/18
+07-12 17:15:22.567  9261  9393 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+07-12 17:15:22.567  9261  9393 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3256)
+07-12 17:15:22.567  9261  9393 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3240)
+07-12 17:15:22.567  9261  9393 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3223)
+07-12 17:15:22.567  9261  9393 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3165)
+07-12 17:15:22.570  9261  9391 W FlagRegistrar: fifi: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null}
+07-12 17:15:22.570  9261  9391 W FlagRegistrar: Caused by: axhn: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null}
+07-12 17:15:22.573  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.apex.cts.shim' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:22.654  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.appsearch' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:22.655  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.art' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:22.748  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.mediaprovider' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:22.819  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.virt' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:22.837  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.btservices' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:22.850  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.resolv' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:22.867  9261  9360 W cal.axni: java.lang.NoSuchMethodException: cal.aooh.getScopes []
+07-12 17:15:22.926  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.configinfrastructure' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:22.927  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.media' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:23.048  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.vndk.v31' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:23.051  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.vndk.v33' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:23.067  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.vndk.v34' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:23.160  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.sdkext' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:23.329  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.adservices' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:23.330  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.tethering' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:23.699  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.runtime' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:23.781  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.cellbroadcast' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:24.339  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.compos' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:24.481  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.tzdata6' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:24.566  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.permission' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:24.833 19553 19553 W PhotopickerUserMonitor: android.content.res.Resources$NotFoundException: No badge found for this user.
+07-12 17:15:24.833 19553 19553 W PhotopickerUserMonitor: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:621)
+07-12 17:15:24.834 19553 19553 W PhotopickerUserMonitor: android.content.res.Resources$NotFoundException: No badge found for this user.
+07-12 17:15:24.834 19553 19553 W PhotopickerUserMonitor: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:621)
+07-12 17:15:24.835 19553 19553 W PhotopickerUserMonitor: android.content.res.Resources$NotFoundException: No badge found for this user.
+07-12 17:15:24.835 19553 19553 W PhotopickerUserMonitor: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:621)
+07-12 17:15:24.934 21659 21659 W LastAccessedStorage: java.io.FileNotFoundException: name
+07-12 17:15:24.934 21659 21659 W LastAccessedStorage: 	at com.android.documentsui.base.DocumentInfo.asFileNotFoundException(DocumentInfo.java:427)
+07-12 17:15:24.934 21659 21659 W LastAccessedStorage: 	at com.android.documentsui.picker.LastAccessedStorage$RuntimeLastAccessedStorage.getLastAccessed(LastAccessedStorage.java:66)
+07-12 17:15:24.934 21659 21659 W LastAccessedStorage: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:621)
+07-12 17:15:24.934 21659 21659 W LastAccessedStorage: Caused by: java.lang.NullPointerException: name
+07-12 17:15:24.946 21659 22027 W RefreshTask: java.lang.NullPointerException: name
+07-12 17:15:25.058  5136 18215 E PickerSyncController: java.lang.IllegalStateException: Unexpected Latest Media Collection Info: ID/Gen=null/0
+07-12 17:15:25.074  5136 18215 E PickerSyncController: java.lang.IllegalStateException: Unexpected Latest Media Collection Info: ID/Gen=null/0
+07-12 17:15:25.209  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:25.230  4100  4267 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:25.234  4100  4267 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:26.348  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.media.swcodec' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:26.377  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.profiling' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:26.921  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.adbd' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:26.979  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.i18n' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:27.053  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.conscrypt' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:27.250  4100  4267 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:27.256  4100  4267 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:27.260  4100  4267 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:27.443  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.neuralnetworks' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:27.527  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.ipsec' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:27.599  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.devicelock' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:27.733  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.ondevicepersonalization' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:27.756  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.healthfitness' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:27.875  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.uwb' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:27.876  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.extservices' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:28.144  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.os.statsd' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:28.288  4100  4120 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:28.329  4100  4120 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:28.345  4100  4120 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:28.461  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.rkpd' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:28.471  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.scheduling' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:15:29.312  4100  4120 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:29.325  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:29.374  4100  4120 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:32.100  6776  9539 E FileDownloadService: Download error
+07-12 17:15:32.100  6776  9539 E FileDownloadService: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no scheme was found for 192.16...
+07-12 17:15:32.122  6776  6776 E FileListFragment: Download error: Download failed: Expected URL scheme 'http' or 'https' but no scheme was found for 192.16...
+07-12 17:15:32.591  9261  9393 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+07-12 17:15:32.591  9261  9393 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3256)
+07-12 17:15:32.591  9261  9393 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3240)
+07-12 17:15:32.591  9261  9393 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3223)
+07-12 17:15:32.591  9261  9393 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3165)
+07-12 17:15:44.133  4100  5421 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:44.147  4100  5421 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:44.150  4100  5421 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:15:58.421  6776  9573 E FileDownloadService: Download error
+07-12 17:15:58.421  6776  9573 E FileDownloadService: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no scheme was found for 192.16...
+07-12 17:15:58.431  6776  6776 E FileListFragment: Download error: Download failed: Expected URL scheme 'http' or 'https' but no scheme was found for 192.16...
+07-12 17:17:01.898  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:01.902  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:01.905  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:02.937  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:02.940  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:02.943  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:09.775  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.mainline.primary.libs' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:09.788  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.wifi' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:09.912  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.apex.cts.shim' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:09.977  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.appsearch' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:09.979  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.art' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.048  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.mediaprovider' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.082  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.virt' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.095  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.btservices' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.101  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.resolv' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.127  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.configinfrastructure' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.128  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.media' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.168  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.vndk.v31' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.170  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.vndk.v33' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.178  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.vndk.v34' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.225  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.sdkext' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.284  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:10.291  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:10.301  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:10.336  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.adservices' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.337  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.tethering' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.462  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.runtime' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.511  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.cellbroadcast' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.721  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.compos' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.761  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.tzdata6' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:10.796  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.permission' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.049  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.media.swcodec' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.076  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.profiling' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.341  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.adbd' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.369  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.i18n' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.400  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.conscrypt' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.480  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.neuralnetworks' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.493  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.ipsec' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.500  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.devicelock' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.527  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.ondevicepersonalization' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.536  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.healthfitness' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.595  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.uwb' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.596  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.extservices' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.710  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.os.statsd' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.808  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.rkpd' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:11.817  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.scheduling' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:17:13.388  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:13.457  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:13.460  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:14.419  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:14.429  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:14.435  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:16.817  4216  4216 I AdvertisingIdClient: getting error as 17: API: ClientTelemetry.API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_DISABLED_FOR_CONNECTION, resolution=null, message=null}
+07-12 17:17:16.889  4100  9568 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:16.944  4100  9567 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:16.949  4100  9568 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:19.444  4100  9567 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:19.459  4100  9774 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:19.958  4100  9774 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:22.828  4100  9775 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:22.848  4100  9567 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:23.130  4100  9774 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:24.243  4100  9775 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:24.304 24793 24951 W hzi     : java.util.concurrent.ExecutionException: pdg
+07-12 17:17:24.583  4100 10138 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:24.605  4100  9775 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:26.035  4100  9774 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:27.854  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:27.863  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:27.864  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:27.954 12900 24722 E msys    : E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=163.70.144.175:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:17:27.959 12900 13543 E msys    : E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 1, domain: WCIStreamState, subdomain: happyeyeballs: Error Domain=WCIStreamState Code=1 UserInfo=0xb400006d60070140 {MCFErrorDirectUnderlyingErrorKey=0xb400006e003cf850 "Error Domain=happyeyeballs Code=1"}
+07-12 17:17:27.968 12900 13456 E MvfstCallbacks.cpp: readError: streamid=0; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:17:27.968 12900 13456 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:17:27.968 12900 13456 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:17:27.969 12900 13456 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:17:27.970 12900 13456 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:17:27.970 12900 13456 E MvfstCallbacks.cpp: writeChain error: Connection closed
+07-12 17:17:27.984 12900 13228 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:17:27.983  6802  8261 E msgr.msys: E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=163.70.144.39:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:17:27.989  6802  7890 E msgr.msys: E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 2, domain: WCIStreamState, subdomain: MCCWLigerStream: Error Domain=WCIStreamState Code=2 UserInfo=0xc382f3200 {MCFErrorDirectUnderlyingErrorKey=0xb400006e0014c490 "Error Domain=MCCWLigerStream Code=2 UserInfo=0xc382f3100 {MCFErrorDirectLocalizedFailureReasonKey=AsyncSocketException: recv() failed (peer=163.70.144.39:5222), type = Internal error, errno = 103 (Software caused connection abort)}"}
+07-12 17:17:27.996  6802  7890 E msgr.msys: E[C 1]MCCLogErrorWithTraceOrQPL(274)=>8/374/3970/65536
+07-12 17:17:27.998  6802  7890 E msgr.msys: E[C 1]MCCLogErrorWithTraceOrQPL(274)=>8/374/3972/18
+07-12 17:17:27.999 12900 13228 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:17:28.000 12900 13228 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:17:28.002 12900 13228 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:17:29.938  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:29.943  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:29.975  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:32.024  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:32.028  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:32.031  4100  4267 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:33.075  4100  9774 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:34.053  4100  9775 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:34.259 12900 13456 E msys    : E[N mns]_LogError(204)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+07-12 17:17:34.680  4100  9774 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:17:57.382  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:57.384  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:17:57.389  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:16.838 10287 10465 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+07-12 17:18:16.838 10287 10465 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3256)
+07-12 17:18:16.838 10287 10465 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3240)
+07-12 17:18:16.838 10287 10465 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3223)
+07-12 17:18:16.838 10287 10465 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3165)
+07-12 17:18:16.845 10287 10463 W FlagRegistrar: fifi: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null}
+07-12 17:18:16.845 10287 10463 W FlagRegistrar: Caused by: axhn: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null}
+07-12 17:18:17.202  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:17.212  4100  4120 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:17.241  4100  4120 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:20.330  4100  4120 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:20.356  4100  4120 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:20.358  4100  4120 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:29.692  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:29.696  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:29.702  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:30.728  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:30.731  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:30.736  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:31.759  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:31.762  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:31.774  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:18:33.182  4100  9775 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:33.230  4100  9775 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:33.275  4100  9775 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:33.350  4100 10718 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:44.324  4100 10616 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:45.439  4100 10718 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:45.449  4100 10415 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:45.894  4100 10616 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:46.704  4100 10718 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:46.831  4100 10982 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:46.873  4100 10616 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:46.886  4100 10982 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:47.154  4100 10718 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:50.693  4100 10415 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:52.567  4100 10415 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:52.602  4100 10983 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:52.617  4100 10718 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:52.626  4100 10983 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:52.647  4100 10982 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:52.671  4100 10983 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:52.707  4100 10982 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:52.718  4100 10718 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:52.738  4100 10983 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:52.753  4100 10718 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:53.175  4100 10982 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:18:56.045  4100 10982 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:27.916  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:27.924  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:27.937  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:28.134  6802  8261 E msgr.msys: E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=163.70.144.39:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:19:28.139  6802  7890 E msgr.msys: E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 2, domain: WCIStreamState, subdomain: MCCWLigerStream: Error Domain=WCIStreamState Code=2 UserInfo=0xc382f5240 {MCFErrorDirectUnderlyingErrorKey=0xb400006e0014c850 "Error Domain=MCCWLigerStream Code=2 UserInfo=0xc382f51c0 {MCFErrorDirectLocalizedFailureReasonKey=AsyncSocketException: recv() failed (peer=163.70.144.39:5222), type = Internal error, errno = 103 (Software caused connection abort)}"}
+07-12 17:19:28.151  6802  7890 E msgr.msys: E[C 1]MCCLogErrorWithTraceOrQPL(274)=>8/374/3970/65536
+07-12 17:19:28.152  6802  7890 E msgr.msys: E[C 1]MCCLogErrorWithTraceOrQPL(274)=>8/374/3972/18
+07-12 17:19:28.256 12900 24722 E msys    : E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=157.240.237.175:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:19:28.307 12900 13543 E msys    : E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 1, domain: WCIStreamState, subdomain: happyeyeballs: Error Domain=WCIStreamState Code=1 UserInfo=0xb400006d600623b0 {MCFErrorDirectUnderlyingErrorKey=0xb400006e000a6a50 "Error Domain=happyeyeballs Code=1"}
+07-12 17:19:28.334 12900 13456 E MvfstCallbacks.cpp: readError: streamid=0; error=ApplicationError: No Error, No Error
+07-12 17:19:28.334 12900 13456 E MvfstCallbacks.cpp: readError: streamid=3; error=ApplicationError: No Error, No Error
+07-12 17:19:28.334 12900 13456 E MvfstCallbacks.cpp: readError: streamid=7; error=ApplicationError: No Error, No Error
+07-12 17:19:28.334 12900 13456 E MvfstCallbacks.cpp: readError: streamid=11; error=ApplicationError: No Error, No Error
+07-12 17:19:28.339 12900 13456 E MvfstCallbacks.cpp: onConnectionError: error=ApplicationError: No Error, No Error
+07-12 17:19:28.347  4100 10982 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:28.354  4100 10982 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:29.455  4100 11159 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:29.464  4100 11233 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:29.504  4100 11159 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:29.633  4100 11232 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:29.952  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:30.010  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:30.012  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:30.096 10287 10465 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+07-12 17:19:30.096 10287 10465 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3256)
+07-12 17:19:30.096 10287 10465 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3240)
+07-12 17:19:30.096 10287 10465 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3223)
+07-12 17:19:30.096 10287 10465 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3165)
+07-12 17:19:42.186  4100 10982 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:42.649  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:42.675  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:42.678  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:42.691  4100 11264 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:42.707  4100 11264 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:43.630  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:43.704  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:43.718  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:43.744  4100 10982 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:43.766  4100 11270 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:43.771  4100 11270 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:43.837  4100 11232 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:45.931 24793 24946 W ntn     : java.nio.file.AccessDeniedException: /storage/emulated/0/Android/data
+07-12 17:19:45.936 24793 24823 W ntn     : java.nio.file.AccessDeniedException: /storage/emulated/0/Android/data
+07-12 17:19:47.798  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:47.820  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:47.825  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:48.834  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:48.840  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:48.844  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:19:49.553  4100 11279 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:49.561  4100 11270 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:58.105  4100 10982 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:58.113  4100 11279 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:59.142  4100 10982 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:59.153  4100 11232 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:59.193  4100 11279 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:19:59.301  4100 10982 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:20:01.648  4100 11264 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:20:01.683  7748 11073 E FileDownloadService: File write error
+07-12 17:20:01.683  7748 11073 E FileDownloadService: java.net.SocketException: Software caused connection abort
+07-12 17:20:01.788  7748  7748 E FileListFragment: Download error: File write failed: Software caused connection abort
+07-12 17:20:08.743  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:20:08.747  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:20:08.759  4100  4267 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:20:13.021  4100 11279 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:20:15.057 12745 11481 I vast_media: [2025-07-12 17:20:15:057] get_msg: FFP_MSG_ERROR
+07-12 17:20:15.058 12745 11481 I vast_media: [2025-07-12 17:20:15:058] FFP_MSG_ERROR:
+07-12 17:20:20.332  4100  4267 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:20:20.339  4100  4267 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:20:20.342  4100 10201 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:22:13.916  4100  6310 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:22:13.919  4100  6310 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:22:13.923  4100  6310 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:22:13.969 12900 13228 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:22:13.970 12900 13228 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:22:13.970 12900 13228 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:22:13.971 12900 13228 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:22:13.976 12900 13456 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:22:13.976 12900 13456 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:22:13.976 12900 13456 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:22:13.976 12900 13456 E MvfstCallbacks.cpp: readError: streamid=4; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:22:13.978 12900 13456 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:22:13.991 12900 24722 E msys    : E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=163.70.144.175:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:22:14.022 12900 13543 E msys    : E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 1, domain: WCIStreamState, subdomain: happyeyeballs: Error Domain=WCIStreamState Code=1 UserInfo=0xb400006d60052550 {MCFErrorDirectUnderlyingErrorKey=0xb400006e000796d0 "Error Domain=happyeyeballs Code=1"}
+07-12 17:22:14.025 12900 13228 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:22:14.026 12900 13228 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:22:14.027 12900 13228 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:22:14.028 12900 13228 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:22:14.118  6802  8261 E msgr.msys: E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=163.70.144.39:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:22:14.127  6802  7890 E msgr.msys: E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 1, domain: WCIStreamState, subdomain: happyeyeballs: Error Domain=WCIStreamState Code=1 UserInfo=0xc382f43c0 {MCFErrorDirectUnderlyingErrorKey=0xb400006e00156390 "Error Domain=happyeyeballs Code=1"}
+07-12 17:22:14.968  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:22:14.977  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:22:14.986  4100  6310 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:22:17.079  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:22:17.086  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:22:17.089  4100  5379 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:22:25.666  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:22:25.669  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:22:25.673  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:23:08.189  4100  5379 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:23:08.193  4100  5379 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:23:08.197  4100  5379 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:23:12.443  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:23:12.455  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:23:12.470  4100  4120 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:23:29.535  4100  4120 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:23:29.542  4100  4120 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:23:29.546  4100  4120 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:23:30.493 21271  6273 W System.err: DEBUG: com.whatsapp.net.logging.a.a(WtLog.java:16) : Sending Alert : type : WARNING description : close_notify(0) exception : 
+07-12 17:23:51.257  4100 11279 E hscb    : java.lang.RuntimeException: ManagedChannel allocation site
+07-12 17:23:51.258  4100 11279 E hscb    : java.lang.RuntimeException: ManagedChannel allocation site
+07-12 17:24:56.092  4100 10201 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:24:56.099  4100 10201 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:24:56.100  4100 10201 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:24:56.164 12900 13456 E MvfstCallbacks.cpp: readError: streamid=0; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:24:56.165 12900 13456 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:24:56.165 12900 13456 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:24:56.165 12900 13456 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:24:56.209  6802  8261 E msgr.msys: E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=163.70.144.39:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:24:56.208 12900 24722 E msys    : E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=163.70.144.175:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:24:56.213 12900 13456 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:24:56.237  6802  7890 E msgr.msys: E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 1, domain: WCIStreamState, subdomain: happyeyeballs: Error Domain=WCIStreamState Code=1 UserInfo=0xc382f5780 {MCFErrorDirectUnderlyingErrorKey=0xb400006e00166510 "Error Domain=happyeyeballs Code=1"}
+07-12 17:24:56.268 12900 13543 E msys    : E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 1, domain: WCIStreamState, subdomain: happyeyeballs: Error Domain=WCIStreamState Code=1 UserInfo=0xb400006d60199530 {MCFErrorDirectUnderlyingErrorKey=0xb400006e0008b690 "Error Domain=happyeyeballs Code=1"}
+07-12 17:24:57.138  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:24:57.141  4100  4267 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:24:57.147  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:24:58.206  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:24:58.213  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:24:58.219  4100 10201 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:01.352  4100 10201 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:01.359  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:01.380  4100  4267 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:02.430  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:02.434  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:02.437  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:03.444  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:03.450  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:03.454  4100  4688 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:17.843  6543  7384 W DialerCp2DefaultDirectoryPhoneLookupContributor: com.android.dialer.phonelookup.cp2.Cp2DefaultDirectoryPhoneLookupContributor.getMostRecentInfo:138 missing permissions [CONTEXT disable_client_error_logging=true ]
+07-12 17:25:17.859  6543  7384 W DialerCp2ExtendedDirectoryPhoneLookupContributor: com.android.dialer.phonelookup.cp2.Cp2ExtendedDirectoryPhoneLookupContributor.getMostRecentInfo:374 missing permissions [CONTEXT disable_client_error_logging=true ]
+07-12 17:25:17.892  6543  7298 E DialerCompositePhoneLookup: com.android.dialer.phonelookup.composite.CompositePhoneLookup.buildSubmapAndGetMostRecentInfo:358 FixedDialingNumberPhoneLookup - getMostRecentInfo failed [CONTEXT disable_client_error_logging=true ]
+07-12 17:25:17.892  6543  7298 E DialerCompositePhoneLookup: Caused by: java.lang.SecurityException: Permission Denial: opening provider com.android.phone.IccProvider from ProcessRecord{3ba0b10 6543:com.google.android.dialer/u0a173} (pid=6543, uid=10173) requires android.permission.READ_CONTACTS or android.permission.WRITE_CONTACTS
+07-12 17:25:17.892  6543  7298 E DialerCompositePhoneLookup: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3256)
+07-12 17:25:17.892  6543  7298 E DialerCompositePhoneLookup: 	at android.os.Parcel.createException(Parcel.java:3240)
+07-12 17:25:17.892  6543  7298 E DialerCompositePhoneLookup: 	at android.os.Parcel.readException(Parcel.java:3223)
+07-12 17:25:17.892  6543  7298 E DialerCompositePhoneLookup: 	at android.os.Parcel.readException(Parcel.java:3165)
+07-12 17:25:17.892  6543  7298 E DialerCompositePhoneLookup: Caused by: android.os.RemoteException: Remote stack trace:
+07-12 17:25:40.436  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:40.439  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:40.442  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:41.484  4100  4267 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:41.494  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:25:41.503  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:26:13.543  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.mainline.primary.libs' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:13.677  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.wifi' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:14.183  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.apex.cts.shim' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:14.369  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.appsearch' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:14.370  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.art' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:14.605  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.mediaprovider' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:14.744  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.virt' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:14.787  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.btservices' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:14.802  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.resolv' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:14.885  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.configinfrastructure' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:14.886  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.media' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:15.033  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.vndk.v31' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:15.037  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.vndk.v33' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:15.063  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.vndk.v34' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:15.203  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.sdkext' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:15.379  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.adservices' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:15.380  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.tethering' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:15.710  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.runtime' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:15.803  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.cellbroadcast' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:16.354  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.compos' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:16.525  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.tzdata6' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:16.614  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.permission' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:17.570  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.media.swcodec' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:17.603  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.profiling' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:18.258  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.adbd' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:18.341  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.i18n' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:18.414  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.conscrypt' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:18.799  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.neuralnetworks' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:18.867  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.ipsec' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:18.959  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.devicelock' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:19.119  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.ondevicepersonalization' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:19.152  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.healthfitness' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:19.266  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.uwb' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:19.267  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.extservices' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:19.475  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.os.statsd' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:19.766  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.rkpd' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:19.776  6809  6809 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.scheduling' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+07-12 17:26:22.421  4100  4121 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:26:22.425  4100  4121 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:26:22.429  4100  4121 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:26:24.547  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:26:24.574  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:26:24.583  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:26:36.171  4100  5421 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:26:36.179  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:26:36.200  4100  5421 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:01.511  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:01.518  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:01.559 12900 13228 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:27:01.560 12900 13228 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:27:01.560 12900 13228 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:27:01.563  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:01.572 12900 13456 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:27:01.572 12900 13456 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:27:01.572 12900 13456 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:27:01.587 12900 24722 E msys    : E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=157.240.237.175:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:27:01.600 12900 13456 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:27:01.605 12900 13228 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:27:01.607 12900 13228 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:27:01.607 12900 13228 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:27:01.607 12900 13228 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:27:01.608 12900 13228 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:27:01.609 12900 13543 E msys    : E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 1, domain: WCIStreamState, subdomain: happyeyeballs: Error Domain=WCIStreamState Code=1 UserInfo=0xb400006d6009a940 {MCFErrorDirectUnderlyingErrorKey=0xb400006e002ea410 "Error Domain=happyeyeballs Code=1"}
+07-12 17:27:01.732  6802  8261 E msgr.msys: E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=157.240.237.38:443), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:27:01.736  6802  7890 E msgr.msys: E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 2, domain: WCIStreamState, subdomain: MCCWLigerStream: Error Domain=WCIStreamState Code=2 UserInfo=0xc382f40c0 {MCFErrorDirectUnderlyingErrorKey=0xb400006e0007d350 "Error Domain=MCCWLigerStream Code=2 UserInfo=0xc382f4080 {MCFErrorDirectLocalizedFailureReasonKey=AsyncSocketException: recv() failed (peer=157.240.237.38:443), type = Internal error, errno = 103 (Software caused connection abort)}"}
+07-12 17:27:01.743  6802  7890 E msgr.msys: E[C 1]MCCLogErrorWithTraceOrQPL(274)=>8/374/3970/65536
+07-12 17:27:01.744  6802  7890 E msgr.msys: E[C 1]MCCLogErrorWithTraceOrQPL(274)=>8/374/3972/18
+07-12 17:27:07.894  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:07.898  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:07.908  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:08.954  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:08.965  4100 10201 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:08.983  4100 10201 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:14.229  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:14.257  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:14.264  4100  5937 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:18.441  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:18.447  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:18.451  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:20.549  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:20.561  4100 10201 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:27:20.577  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:28:31.886  4100 12471 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:28:38.215  9891  9891 E FileListFragment: java.net.SocketTimeoutException: timeout
+07-12 17:28:38.215  9891  9891 E FileListFragment: 	at okio.SocketAsyncTimeout.newTimeoutException(JvmOkio.kt:146)
+07-12 17:28:38.215  9891  9891 E FileListFragment: 	at okio.AsyncTimeout.access$newTimeoutException(AsyncTimeout.kt:161)
+07-12 17:28:38.215  9891  9891 E FileListFragment: Caused by: java.net.SocketException: Socket closed
+07-12 17:28:40.411  4100 12471 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:28:42.195  4100 12471 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:28:43.391  4100 12246 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:28:43.419  4100 12471 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:28:43.450  4100 12246 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:28:43.470  4100 12663 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:28:43.493  4100 12471 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:28:43.511  4100 12663 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:28:43.538  4100 12460 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:28:43.562  4100 12471 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:28:43.589  4100 12663 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:28:43.615  4100 12663 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:03.124  9891 12761 E FileDownloadService: Download error
+07-12 17:29:03.124  9891 12761 E FileDownloadService: java.net.SocketTimeoutException: failed to connect to /192.168.1.15 (port 5000) from /192.168.1.4 (port 56318) after 10000ms
+07-12 17:29:22.244  4100 12663 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:29.318 12453 13022 W hzi     : java.util.concurrent.ExecutionException: pdg
+07-12 17:29:29.511  4100 12663 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:29.534  4100 12878 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:29.544  4100 12663 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:29.564  4100 12878 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:29.585  4100 12878 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:29.591  4100 12878 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:29.602  4100 12663 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:30.654  4100 12878 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:30.662  4100 12663 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:30.708  4100 13044 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:30.829  4100 12663 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:34.249  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:29:34.255  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:29:34.264  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:29:34.694 12453 12957 W .apps.nbu.files: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~9V7H46ujLt5NirW1CAyylw==/com.facebook.orca-aWGH0-pNhjxUwvzbl_jERA==/split_arservicesforruntimerigmapping.apk' with 1 weak references
+07-12 17:29:34.888  4100 13059 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:34.893  4100 12663 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:29:53.934  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:29:53.936  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:29:53.937  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:29:53.990 12900 13456 E MvfstCallbacks.cpp: readError: streamid=0; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:29:53.990 12900 13456 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:29:53.990 12900 13456 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:29:53.990 12900 13456 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:29:53.991 12900 13456 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:29:54.035 12900 24722 E msys    : E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=157.240.237.175:443), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:29:54.038  6802  8261 E msgr.msys: E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=163.70.144.39:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:29:54.038 12900 13543 E msys    : E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 1, domain: WCIStreamState, subdomain: happyeyeballs: Error Domain=WCIStreamState Code=1 UserInfo=0xb400006d600ce150 {MCFErrorDirectUnderlyingErrorKey=0xb400006e00309f10 "Error Domain=happyeyeballs Code=1"}
+07-12 17:29:54.041  6802  7890 E msgr.msys: E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 1, domain: WCIStreamState, subdomain: happyeyeballs: Error Domain=WCIStreamState Code=1 UserInfo=0xc382f3440 {MCFErrorDirectUnderlyingErrorKey=0xb400006e00169d90 "Error Domain=happyeyeballs Code=1"}
+07-12 17:30:00.068  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:30:00.081  4100  6310 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:30:00.087  4100  6310 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: FATAL EXCEPTION: main
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: Process: com.alstha.growth, PID: 9891
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: java.lang.IllegalArgumentException: Invalid URL port: "5000:5000"
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at okhttp3.HttpUrl$Builder.parse$okhttp(HttpUrl.kt:1330)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at okhttp3.HttpUrl$Companion.get(HttpUrl.kt:1634)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at okhttp3.HttpUrl.get(Unknown Source:2)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at retrofit2.Retrofit$Builder.baseUrl(Retrofit.java:506)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at com.alstha.growth.UploadRepository.<init>(UploadRepository.kt:45)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at com.alstha.growth.MainActivity.testServerConnection(MainActivity.kt:183)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at com.alstha.growth.MainActivity.setupClickListeners$lambda$1(MainActivity.kt:128)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at com.alstha.growth.MainActivity.$r8$lambda$0lTZtkwjYJ0Ok6jGAcaCdb8b9l0(Unknown Source:0)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at com.alstha.growth.MainActivity$$ExternalSyntheticLambda2.onClick(D8$$SyntheticClass:0)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at android.view.View.performClick(View.java:8159)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1218)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8136)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:32114)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:1014)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:250)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:340)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9860)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:621)
+07-12 17:30:01.904  9891  9891 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: FATAL EXCEPTION: main
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: Process: com.alstha.growth, PID: 12624
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: java.lang.IllegalArgumentException: Invalid URL port: "5000:5000"
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at okhttp3.HttpUrl$Builder.parse$okhttp(HttpUrl.kt:1330)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at okhttp3.HttpUrl$Companion.get(HttpUrl.kt:1634)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at okhttp3.HttpUrl.get(Unknown Source:2)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at retrofit2.Retrofit$Builder.baseUrl(Retrofit.java:506)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at com.alstha.growth.UploadRepository.<init>(UploadRepository.kt:45)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at com.alstha.growth.MainActivity.testServerConnection(MainActivity.kt:183)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at com.alstha.growth.MainActivity.setupClickListeners$lambda$1(MainActivity.kt:128)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at com.alstha.growth.MainActivity.$r8$lambda$0lTZtkwjYJ0Ok6jGAcaCdb8b9l0(Unknown Source:0)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at com.alstha.growth.MainActivity$$ExternalSyntheticLambda2.onClick(D8$$SyntheticClass:0)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at android.view.View.performClick(View.java:8159)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1218)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8136)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:32114)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:1014)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:250)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:340)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9860)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:621)
+07-12 17:30:04.872 12624 12624 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+07-12 17:30:09.385  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:30:09.389  4100  6310 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:30:09.394  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:30:18.875  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:30:18.880  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:30:18.892  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:30:19.879  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:30:19.882  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:30:19.891  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:31:29.577  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:31:29.588  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:31:29.594  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:31:30.617  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:31:30.627  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:31:30.639  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:15.574  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:15.578  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:15.581  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:15.631 12900 24722 E msys    : E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=157.240.237.175:443), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:32:15.642 12900 13228 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:32:15.643 12900 13228 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:32:15.643 12900 13228 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:32:15.644 12900 13228 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:32:15.651  6802  8261 E msgr.msys: E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=163.70.144.39:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:32:15.681  6802  7890 E msgr.msys: E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 2, domain: WCIStreamState, subdomain: MCCWLigerStream: Error Domain=WCIStreamState Code=2 UserInfo=0xc382f3f40 {MCFErrorDirectUnderlyingErrorKey=0xb400006e00089990 "Error Domain=MCCWLigerStream Code=2 UserInfo=0xc382f3ec0 {MCFErrorDirectLocalizedFailureReasonKey=AsyncSocketException: recv() failed (peer=163.70.144.39:5222), type = Internal error, errno = 103 (Software caused connection abort)}"}
+07-12 17:32:15.688 12900 13228 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:32:15.688 12900 13228 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:32:15.688 12900 13228 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:32:15.689 12900 13228 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 3
+07-12 17:32:15.714  6802  7890 E msgr.msys: E[C 1]MCCLogErrorWithTraceOrQPL(274)=>8/374/3970/65536
+07-12 17:32:15.715  6802  7890 E msgr.msys: E[C 1]MCCLogErrorWithTraceOrQPL(274)=>8/374/3972/18
+07-12 17:32:15.720 12900 13456 E MvfstCallbacks.cpp: readError: streamid=0; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:32:15.720 12900 13456 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:32:15.722 12900 13456 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:32:15.722 12900 13456 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:32:15.723 12900 13456 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:32:15.725 12900 13456 E MvfstCallbacks.cpp: writeChain error: Connection closed
+07-12 17:32:15.744 12900 13543 E msys    : E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 1, domain: WCIStreamState, subdomain: happyeyeballs: Error Domain=WCIStreamState Code=1 UserInfo=0xb400006d600ce920 {MCFErrorDirectUnderlyingErrorKey=0xb400006e002eab90 "Error Domain=happyeyeballs Code=1"}
+07-12 17:32:20.696  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:20.700  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:20.701  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:23.783  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:23.792  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:23.799  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:24.875  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:24.883  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:24.896  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:25.278  4100 14750 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:32:25.281  4100 14750 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:32:25.300  4100 14170 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:32:25.395  4100 14170 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:32:29.066  4100 14750 I NetworkScheduler: (REDACTED) Error inserting %s
+07-12 17:32:33.696 19553 19553 W PhotopickerUserMonitor: android.content.res.Resources$NotFoundException: No badge found for this user.
+07-12 17:32:33.696 19553 19553 W PhotopickerUserMonitor: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:621)
+07-12 17:32:33.698 19553 19553 W PhotopickerUserMonitor: android.content.res.Resources$NotFoundException: No badge found for this user.
+07-12 17:32:33.698 19553 19553 W PhotopickerUserMonitor: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:621)
+07-12 17:32:33.699 19553 19553 W PhotopickerUserMonitor: android.content.res.Resources$NotFoundException: No badge found for this user.
+07-12 17:32:33.699 19553 19553 W PhotopickerUserMonitor: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:621)
+07-12 17:32:33.852 21659 21659 W LastAccessedStorage: java.io.FileNotFoundException: name
+07-12 17:32:33.852 21659 21659 W LastAccessedStorage: 	at com.android.documentsui.base.DocumentInfo.asFileNotFoundException(DocumentInfo.java:427)
+07-12 17:32:33.852 21659 21659 W LastAccessedStorage: 	at com.android.documentsui.picker.LastAccessedStorage$RuntimeLastAccessedStorage.getLastAccessed(LastAccessedStorage.java:66)
+07-12 17:32:33.852 21659 21659 W LastAccessedStorage: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:621)
+07-12 17:32:33.852 21659 21659 W LastAccessedStorage: Caused by: java.lang.NullPointerException: name
+07-12 17:32:33.868 21659 22027 W RefreshTask: java.lang.NullPointerException: name
+07-12 17:32:33.869  5136 18128 E PickerSyncController: java.lang.IllegalStateException: Unexpected Latest Media Collection Info: ID/Gen=null/0
+07-12 17:32:33.905  5136 18128 E PickerSyncController: java.lang.IllegalStateException: Unexpected Latest Media Collection Info: ID/Gen=null/0
+07-12 17:32:34.914 12453 12957 W .apps.nbu.files: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~9V7H46ujLt5NirW1CAyylw==/com.facebook.orca-aWGH0-pNhjxUwvzbl_jERA==/split_arservicesforruntimerigmapping.apk' with 1 weak references
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: FATAL EXCEPTION: main
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: Process: com.alstha.growth, PID: 13616
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: java.lang.IllegalArgumentException: Invalid URL port: "5000:5000"
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at okhttp3.HttpUrl$Builder.parse$okhttp(HttpUrl.kt:1330)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at okhttp3.HttpUrl$Companion.get(HttpUrl.kt:1634)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at okhttp3.HttpUrl.get(Unknown Source:2)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at retrofit2.Retrofit$Builder.baseUrl(Retrofit.java:506)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at com.alstha.growth.UploadRepository.<init>(UploadRepository.kt:45)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at com.alstha.growth.UploadService.uploadFile(UploadService.kt:77)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at com.alstha.growth.MainActivity.uploadFile(MainActivity.kt:272)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at com.alstha.growth.CameraFragment.onViewCreated$lambda$4(CameraFragment.kt:93)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at com.alstha.growth.CameraFragment.$r8$lambda$oTLKBJrc_PXidU5gqVXroU2zEPc(Unknown Source:0)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at com.alstha.growth.CameraFragment$$ExternalSyntheticLambda2.onClick(D8$$SyntheticClass:0)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at android.view.View.performClick(View.java:8159)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1218)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8136)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:32114)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:1014)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:250)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:340)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9860)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:621)
+07-12 17:32:37.516 13616 13616 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: FATAL EXCEPTION: main
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: Process: com.alstha.growth, PID: 13723
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: java.lang.IllegalArgumentException: Invalid URL port: "5000:5000"
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at okhttp3.HttpUrl$Builder.parse$okhttp(HttpUrl.kt:1330)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at okhttp3.HttpUrl$Companion.get(HttpUrl.kt:1634)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at okhttp3.HttpUrl.get(Unknown Source:2)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at retrofit2.Retrofit$Builder.baseUrl(Retrofit.java:506)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at com.alstha.growth.UploadRepository.<init>(UploadRepository.kt:45)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at com.alstha.growth.MainActivity.testServerConnection(MainActivity.kt:183)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at com.alstha.growth.MainActivity.setupClickListeners$lambda$1(MainActivity.kt:128)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at com.alstha.growth.MainActivity.$r8$lambda$0lTZtkwjYJ0Ok6jGAcaCdb8b9l0(Unknown Source:0)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at com.alstha.growth.MainActivity$$ExternalSyntheticLambda2.onClick(D8$$SyntheticClass:0)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at android.view.View.performClick(View.java:8159)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1218)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8136)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:32114)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:1014)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:250)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:340)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9860)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:621)
+07-12 17:32:43.398 13723 13723 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+07-12 17:32:48.669  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:48.672  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:32:48.687  4100  5379 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:12.183  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:12.188  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:12.192  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:19.674  4100  5379 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:19.675  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:19.683  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:20.755  4100  5379 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:20.760  4100  5379 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:20.763  4100  5379 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:21.828  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:21.836  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:21.837  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:22.904  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:22.912  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:22.917  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:29.313  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:29.324  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:29.345  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:45.271  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:45.275  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:45.279  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:48.500  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:48.509  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:33:48.519  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:25.708  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:25.713  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:25.716  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:25.816  6802  8261 E msgr.msys: E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=163.70.144.39:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:34:25.818  6802  7890 E msgr.msys: E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 2, domain: WCIStreamState, subdomain: MCCWLigerStream: Error Domain=WCIStreamState Code=2 UserInfo=0xc382f3840 {MCFErrorDirectUnderlyingErrorKey=0xb400006e000f6290 "Error Domain=MCCWLigerStream Code=2 UserInfo=0xc382f3800 {MCFErrorDirectLocalizedFailureReasonKey=AsyncSocketException: recv() failed (peer=163.70.144.39:5222), type = Internal error, errno = 103 (Software caused connection abort)}"}
+07-12 17:34:25.828  6802  7890 E msgr.msys: E[C 1]MCCLogErrorWithTraceOrQPL(274)=>8/374/3970/65536
+07-12 17:34:25.829  6802  7890 E msgr.msys: E[C 1]MCCLogErrorWithTraceOrQPL(274)=>8/374/3972/18
+07-12 17:34:25.953 12900 24722 E msys    : E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=163.70.144.175:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+07-12 17:34:25.957 12900 13543 E msys    : E[N WA]_WCCXMPPStreamDisconnectHandler(300)=>xmpp/disconnect - WCIStreamStateErrorCode: 1, domain: WCIStreamState, subdomain: happyeyeballs: Error Domain=WCIStreamState Code=1 UserInfo=0xb400006d60070320 {MCFErrorDirectUnderlyingErrorKey=0xb400006e002e0550 "Error Domain=happyeyeballs Code=1"}
+07-12 17:34:25.967 12900 13456 E MvfstCallbacks.cpp: readError: streamid=0; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:34:25.967 12900 13456 E MvfstCallbacks.cpp: readError: streamid=3; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:34:25.968 12900 13456 E MvfstCallbacks.cpp: readError: streamid=7; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:34:25.968 12900 13456 E MvfstCallbacks.cpp: readError: streamid=11; error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:34:25.969 12900 13456 E MvfstCallbacks.cpp: onConnectionError: error=LocalError: Idle timeout, Idle timeout, num non control streams: 4
+07-12 17:34:25.970 12900 13456 E MvfstCallbacks.cpp: writeChain error: Connection closed
+07-12 17:34:26.770  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:26.778  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:26.788  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:29.941  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:29.945  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:29.951  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:31.011  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:31.012  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:31.020  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:32.070  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:32.072  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:32.082  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:38.300  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:38.303  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:38.306  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:39.339  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:39.344  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:39.348  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:40.416  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:40.423  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:40.427  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:43.596  4100  5379 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:43.605  4100  5379 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:43.608  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:46.724  4100  5379 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:46.728  4100  5379 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:34:46.740  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:35:07.997  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:35:08.002  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:35:08.019  4100  6079 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:35:15.482  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:35:15.493  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:35:15.496  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:35:17.601  4100  5806 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:35:17.608  4100  4267 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:35:17.616  4100  4267 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:03.422  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:03.445  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:03.449  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:05.513  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:05.521  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:05.524  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:06.555  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:06.575  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:06.576  4100  7386 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:08.688  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:08.692  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:08.694  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:09.745  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:09.755  4100  4129 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:09.756  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:11.866  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:11.873  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:11.883  4100  7166 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:12.926  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:12.931  4100 11477 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+07-12 17:36:12.944  4100  5232 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
