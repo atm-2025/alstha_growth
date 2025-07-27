@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingBottom="16dp">
+
+    <!-- Main content below toolbar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp">
+
+        <!-- Upload Actions Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/uploadOptionsCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload options"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:textColor="@color/text_primary"
+                    android:singleLine="true"
+                    android:ellipsize="end" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/cameraBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:text="Camera"
+                        app:icon="@drawable/ic_camera"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/selectFileBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:text="Select File"
+                        app:icon="@drawable/ic_file"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/downloadFilesBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="4dp"
+                        android:text="Download"
+                        app:icon="@drawable/ic_file"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- RecyclerView for image files -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/imageFileRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:overScrollMode="never"
+            android:scrollbars="vertical" />
+
+        <!-- Empty state message for screenshots list -->
+        <TextView
+            android:id="@+id/emptyListText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No screenshots found."
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="8dp" />
+
+        <!-- Camera Preview (hidden by default) -->
+        <androidx.camera.view.PreviewView
+            android:id="@+id/cameraPreview"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_margin="12dp"
+            android:visibility="gone" />
+
+        <!-- Captured Image Preview (hidden by default) -->
+        <ImageView
+            android:id="@+id/capturedImagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_margin="12dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <!-- Upload Button (hidden by default) -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/uploadCapturedBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone" />
+
+        <!-- Uploading Status and Tick at the bottom -->
+        <LinearLayout
+            android:id="@+id/uploadStatusBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|end"
+            android:padding="16dp"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/uploadingStatusText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Uploading file"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                android:textColor="@color/text_primary" />
+            <ImageView
+                android:id="@+id/uploadTickIcon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@android:drawable/checkbox_on_background"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout> 

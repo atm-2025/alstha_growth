@@ -1,0 +1,210 @@
+# 🎯 COMMAND TAB - ALL PREDEFINED COMMANDS
+# Commands that the AI can understand and execute
+
+## 📋 **EXACT SINGLE-WORD COMMANDS** (Highest Priority)
+These commands can be used as single words and are detected immediately:
+
+### 🌐 **Network & System Info**
+- `ip` → "show ip"
+- `battery` → "check battery" 
+- `wifi` → "check wifi"
+- `screenshot` → "take screenshot"
+
+### 💻 **System Control**
+- `lock` → "lock"
+- `sleep` → "sleep"
+- `shutdown` → "shutdown"
+- `restart` → "restart"
+
+### 📱 **Applications**
+- `notepad` → "open notepad"
+- `calculator` → "open calculator"
+- `calc` → "open calculator"
+- `browser` → "open browser"
+- `explorer` → "open file explorer"
+- `settings` → "open settings"
+- `word` → "open word"
+- `excel` → "open excel"
+- `powerpoint` → "open powerpoint"
+- `paint` → "open paint"
+
+---
+
+## 🔧 **CATEGORIZED COMMANDS** (Manual Commands Section)
+
+### 🖥️ **SYSTEM CONTROL**
+- `sleep` - Put system to sleep
+- `shutdown` - Shutdown the computer
+- `restart` - Restart the computer
+- `hibernate` - Hibernate the system
+- `lock` - Lock the workstation
+- `unlock` - Unlock the workstation
+
+### 📱 **APPLICATIONS**
+- `open notepad` - Open Notepad
+- `open calculator` - Open Calculator
+- `open browser` - Open default browser
+- `open file explorer` - Open File Explorer
+- `open settings` - Open Windows Settings
+- `open control panel` - Open Control Panel
+- `open task manager` - Open Task Manager
+- `open device manager` - Open Device Manager
+- `open system properties` - Open System Properties
+
+### 🛠️ **UTILITIES**
+- `take screenshot` - Take a screenshot
+- `show ip` - Show IP address
+- `check battery` - Check battery status
+- `check wifi` - Check WiFi status
+- `show system info` - Show system information
+- `show disk space` - Show disk usage
+- `show memory usage` - Show memory usage
+- `show running processes` - Show running processes
+- `show network status` - Show network status
+
+### 🎵 **MEDIA**
+- `volume up` - Increase volume
+- `volume down` - Decrease volume
+- `mute` - Mute/unmute audio
+- `play music` - Play music
+- `pause music` - Pause music
+- `next track` - Next track
+- `previous track` - Previous track
+
+### 🔍 **SEARCH**
+- `search google` - Search on Google
+- `search youtube` - Search on YouTube
+- `search files` - Search files
+- `search documents` - Search documents
+
+---
+
+## ⚡ **QUICK COMMANDS** (Quick Commands Section)
+These appear as buttons in the Quick Commands section:
+
+- `Sleep` - Put system to sleep
+- `Lock` - Lock workstation
+- `Screenshot` - Take screenshot
+- `IP Address` - Show IP address
+- `Battery` - Check battery status
+- `System Info` - Show system information
+- `Disk Space` - Show disk usage
+
+---
+
+## 🧠 **AI UNDERSTANDABLE PATTERNS**
+
+### **Multi-word Patterns** (Detected by AI)
+The AI can understand these patterns and convert them to commands:
+
+#### **Notepad Related:**
+- "notepad", "text", "write", "note" → `open notepad`
+
+#### **Calculator Related:**
+- "calculator", "calc", "math" → `open calculator`
+
+#### **Browser Related:**
+- "browser", "internet", "web", "chrome", "edge" → `open browser`
+
+#### **File Explorer Related:**
+- "explorer", "files", "folders", "documents" → `open file explorer`
+
+#### **Word Related:**
+- "word", "document" → `open word`
+
+#### **Excel Related:**
+- "excel", "spreadsheet", "table" → `open excel`
+
+#### **PowerPoint Related:**
+- "powerpoint", "presentation", "slides" → `open powerpoint`
+
+#### **Paint Related:**
+- "paint", "draw", "drawing" → `open paint`
+
+#### **Settings Related:**
+- "settings", "preferences" → `open settings`
+
+#### **Control Panel Related:**
+- "control panel", "system control" → `open control panel`
+
+#### **Task Manager Related:**
+- "task manager", "processes" → `open task manager`
+
+#### **Screenshot Related:**
+- "screenshot", "capture", "screen shot" → `take screenshot`
+
+#### **IP Related:**
+- "ip", "network", "address" → `show ip`
+
+#### **Battery Related:**
+- "battery", "power" → `check battery`
+
+#### **WiFi Related:**
+- "wifi", "wireless", "network" → `check wifi`
+
+#### **Lock Related:**
+- "lock", "lock screen" → `lock`
+
+#### **Sleep Related:**
+- "sleep", "suspend" → `sleep`
+
+#### **Shutdown Related:**
+- "shutdown", "turn off", "power off" → `shutdown`
+
+#### **Restart Related:**
+- "restart", "reboot" → `restart`
+
+---
+
+## 🎯 **COMPLEX COMMANDS** (Multi-step)
+The AI can understand complex commands with connectors like "and", "also", "then", "next", "after", "while":
+
+**Examples:**
+- "open notepad and calculator" → Executes both commands
+- "take screenshot and show ip" → Takes screenshot and shows IP
+- "open browser and settings" → Opens both applications
+
+---
+
+## 📝 **USAGE EXAMPLES**
+
+### **Single Word Commands:**
+- Type: `ip` → Shows IP address
+- Type: `battery` → Shows battery status
+- Type: `screenshot` → Takes screenshot
+- Type: `lock` → Locks workstation
+
+### **Natural Language:**
+- Type: "open the calculator" → Opens calculator
+- Type: "show my IP address" → Shows IP address
+- Type: "take a screenshot" → Takes screenshot
+- Type: "check battery status" → Shows battery info
+
+### **Complex Commands:**
+- Type: "open notepad and calculator" → Opens both apps
+- Type: "take screenshot and show IP" → Does both actions
+- Type: "open browser and settings" → Opens both
+
+---
+
+## 🔍 **COMMAND DETECTION PRIORITY**
+
+1. **Exact Single-Word Matches** (Highest Priority)
+   - Single words like "ip", "battery", "lock"
+
+2. **Pattern Matching** (Medium Priority)
+   - Multi-word patterns like "open calculator"
+
+3. **Complex Command Parsing** (Lowest Priority)
+   - Commands with connectors like "and", "also"
+
+---
+
+## ✅ **TOTAL COMMAND COUNT**
+
+**Exact Single-Word Commands:** 18 commands
+**Categorized Commands:** 35 commands  
+**Quick Commands:** 7 commands
+**Total Unique Commands:** 35 commands
+
+**Grand Total:** 35 predefined commands that the AI can understand and execute in the Command tab. 

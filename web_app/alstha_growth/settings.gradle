@@ -1,0 +1,18 @@
+// In your settings.gradle file (at the project root)
+
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "alstha_growth" // Or whatever your project name is
+include ':app' // Make sure your app module is included

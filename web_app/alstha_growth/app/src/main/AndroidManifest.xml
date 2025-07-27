@@ -1,0 +1,91 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!--
+        WRITE_EXTERNAL_STORAGE is largely deprecated for apps targeting Android 10 (API 29) and higher.
+        - For Android 10 (API 29): If you still need broad access, you can temporarily opt-out of
+          scoped storage by adding android:requestLegacyExternalStorage="true" in the <application> tag.
+        - For Android 11 (API 30) and higher: android:requestLegacyExternalStorage is ignored.
+          For broad file access, you would need to use MANAGE_EXTERNAL_STORAGE, which requires
+          Google Play approval for most use cases.
+        - It's highly recommended to use Scoped Storage APIs for accessing shared storage or
+          app-specific directories.
+        - The android:maxSdkVersion="28" attribute below makes this permission requested only
+          on devices running Android 9 (API 28) or lower.
+    -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="alstha_growth"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlsthaGrowth"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config">
+        
+        <!-- Test Activity for debugging -->
+        <activity
+            android:name=".TestActivity"
+            android:exported="true">
+            <!-- Temporarily commented out for debugging -->
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        
+        <!--
+            For ResultActivity:
+            - If it's launched by other apps OR has an intent-filter, you MUST explicitly set android:exported.
+            - If it's only launched by your own app's components AND has NO intent-filter,
+              android:exported="false" is the default for apps targeting API 31+.
+            - Setting it explicitly improves clarity and safety.
+            - The value below assumes ResultActivity is only launched internally by your app
+              and does not have any intent filters.
+              Adjust 'android:exported' if this assumption is incorrect (e.g., if it has intent filters).
+        -->
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".UploadService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+
+        <service
+            android:name=".FileDownloadService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+    </application>
+
+</manifest>

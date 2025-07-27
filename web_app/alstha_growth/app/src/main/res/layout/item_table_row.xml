@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+        <TextView android:id="@+id/cellDate" android:layout_width="100dp" android:layout_height="wrap_content" android:textColor="#000000" android:textSize="12sp" android:ellipsize="end" android:maxLines="1"/>
+        <TextView android:id="@+id/cellName" android:layout_width="80dp" android:layout_height="wrap_content" android:textColor="#000000" android:textSize="12sp" android:ellipsize="end" android:maxLines="1"/>
+        <TextView android:id="@+id/cellType" android:layout_width="70dp" android:layout_height="wrap_content" android:textColor="#000000" android:textSize="12sp" android:ellipsize="end" android:maxLines="1"/>
+        <TextView android:id="@+id/cellStatus" android:layout_width="80dp" android:layout_height="wrap_content" android:textColor="#000000" android:textSize="12sp" android:ellipsize="end" android:maxLines="1"/>
+        <TextView android:id="@+id/cellRemarks" android:layout_width="100dp" android:layout_height="wrap_content" android:textColor="#000000" android:textSize="12sp" android:ellipsize="end" android:maxLines="1"/>
+        <TextView android:id="@+id/cellDuration" android:layout_width="60dp" android:layout_height="wrap_content" android:textColor="#000000" android:textSize="12sp" android:ellipsize="end" android:maxLines="1"/>
+        <TextView android:id="@+id/cellAttention" android:layout_width="60dp" android:layout_height="wrap_content" android:textColor="#000000" android:textSize="12sp" android:ellipsize="end" android:maxLines="1"/>
+        <TextView android:id="@+id/cellEnergy" android:layout_width="60dp" android:layout_height="wrap_content" android:textColor="#000000" android:textSize="12sp" android:ellipsize="end" android:maxLines="1"/>
+        <TextView android:id="@+id/cellLinks" android:layout_width="100dp" android:layout_height="wrap_content" android:textColor="#000000" android:textSize="12sp" android:ellipsize="end" android:maxLines="1"/>
+        <TextView android:id="@+id/cellDesp" android:layout_width="120dp" android:layout_height="wrap_content" android:textColor="#000000" android:textSize="12sp" android:ellipsize="end" android:maxLines="1"/>
+    </LinearLayout>
+</HorizontalScrollView> 

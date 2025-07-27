@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/labelName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/inputName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter name"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/labelDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+            <EditText
+                android:id="@+id/inputDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select date"
+                android:focusable="false"
+                android:clickable="true"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/labelType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+            <Spinner
+                android:id="@+id/inputType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/labelStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+            <Spinner
+                android:id="@+id/inputStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/labelRemarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remarks"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+            <EditText
+                android:id="@+id/inputRemarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter remarks"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/btnShowMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show More"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+            <LinearLayout
+                android:id="@+id/layoutShowMore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/labelLinks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Links"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"/>
+                <EditText
+                    android:id="@+id/inputLinks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter links"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/labelDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Duration"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"/>
+                <EditText
+                    android:id="@+id/inputDuration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter duration"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/labelAttention"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Attention"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"/>
+                <Spinner
+                    android:id="@+id/inputAttention"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/labelEnergyLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Energy Level"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"/>
+                <Spinner
+                    android:id="@+id/inputEnergyLevel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/labelDesp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Desp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"/>
+                <EditText
+                    android:id="@+id/inputDesp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter description"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="24dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageButton
+                        android:id="@+id/btnCancel"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@android:drawable/ic_menu_close_clear_cancel"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Cancel"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cancel"
+                        android:textSize="12sp"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageButton
+                        android:id="@+id/btnDone"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@android:drawable/ic_menu_save"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Done"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Done"
+                        android:textSize="12sp"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageButton
+                        android:id="@+id/btnAdd"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@android:drawable/ic_input_add"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Add"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add"
+                        android:textSize="12sp"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView> 

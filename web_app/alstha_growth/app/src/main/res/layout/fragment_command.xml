@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/connectionStatusView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checking connection..."
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="#F0F0F0"
+        android:layout_marginBottom="16dp"/>
+
+    <Spinner
+        android:id="@+id/commandSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sendBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_gravity="end"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/outputView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Output will appear here."
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:background="#EEEEEE"
+        android:padding="12dp"
+        android:gravity="top|start"/>
+
+</LinearLayout> 

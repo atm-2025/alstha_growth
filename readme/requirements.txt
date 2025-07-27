@@ -1,0 +1,8 @@
+PySide6==6.6.1
+requests==2.31.0
+opencv-python==4.9.0.80 
+pyautogui
+pyperclip 
+faster-whisper
+sounddevice
+soundfile 

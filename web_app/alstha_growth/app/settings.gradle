@@ -1,0 +1,3 @@
+
+include ':app' // Make sure your app module is included
+    

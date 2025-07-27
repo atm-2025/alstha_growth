@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Server Connection Status"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/connectionStatusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checking connection..."
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#F5F5F5"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/reconnectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reconnect"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The app will automatically connect to:\n• Primary: 192.168.1.111\n• Secondary: 192.168.1.112\n\nIf the primary server is unavailable, it will automatically switch to the secondary server."
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#E8F5E8"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout> 

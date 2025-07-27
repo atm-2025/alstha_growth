@@ -1,0 +1,38 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+// The buildscript block configures the build script execution.
+buildscript {
+    // ext is used to define global properties. Often used for versions.
+    ext {
+        kotlin_version = '2.2.0' // Example: Define Kotlin version
+        // You might define other versions here, e.g., for libraries or SDKs
+    }
+
+    // Repositories for Gradle to find the plugins defined in the dependencies block below
+    repositories {
+        google()        // For Android Gradle Plugin, Google Maven artifacts
+        mavenCentral()  // General purpose artifact repository
+    }
+
+    // Dependencies that Gradle itself needs to execute the build.
+    // These are NOT dependencies for your app's code.
+    dependencies {
+        // Android Gradle Plugin (AGP) - version is important for compatibility
+        classpath 'com.android.tools.build:gradle:8.6.0'
+
+        // Kotlin Gradle Plugin (if you're using Kotlin)
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        // You might add other classpath dependencies here if needed,
+        // e.g., for Google Services plugin (Firebase), Navigation Safe Args, etc.
+        // classpath 'com.google.gms:google-services:4.4.1'
+    }
+}
+
+// A common task to clean the build directory
+
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}
+    

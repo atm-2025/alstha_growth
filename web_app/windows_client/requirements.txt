@@ -1,0 +1,32 @@
+# Core dependencies
+PySide6>=6.5.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+requests>=2.31.0
+pyautogui>=0.9.54
+pyperclip>=1.8.2
+youtube-transcript-api>=0.6.0
+yt-dlp>=2023.0.0
+
+# AI/ML dependencies for Jarvis functionality
+# Use only PyTorch-based models, no TensorFlow/Keras
+torch>=2.0.0
+transformers>=4.40.0
+sentence-transformers>=2.6.0
+scikit-learn>=1.3.0
+scipy>=1.10.0
+
+# Audio processing for voice commands
+speechrecognition>=3.10.0
+pyaudio>=0.2.11
+pyttsx3>=2.90
+
+# System utilities
+psutil>=5.9.0
+pywin32>=306; sys_platform == "win32"
+ctypes-windows-sdk>=0.0.1; sys_platform == "win32"
+
+# Additional utilities
+python-dotenv>=1.0.0
+colorama>=0.4.6
+tqdm>=4.65.0 

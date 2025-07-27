@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">alstha_growth</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="capture">Capture</string>
+    <string name="upload">Upload</string>
+    <string name="result_placeholder">Result will appear here</string>
+    <string name="camera_permission_denied">Camera permission denied</string>
+    <string name="capture_failed">Capture failed</string>
+    <string name="upload_failed">Upload failed</string>
+</resources> 

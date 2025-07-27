@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_daily_logs"
+        android:title="Daily Logs"
+        android:icon="@android:drawable/ic_menu_agenda"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_upload_text"
+        android:title="Upload Text"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_logs"
+        android:title="Clear Logs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="About"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_llm"
+        android:title="LLM"
+        android:icon="@drawable/ic_chat"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_file_upload"
+        android:title="File Upload"
+        android:icon="@android:drawable/ic_menu_upload"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_command"
+        android:title="Command"
+        android:icon="@android:drawable/ic_menu_manage"
+        app:showAsAction="never" />
+
+</menu> 

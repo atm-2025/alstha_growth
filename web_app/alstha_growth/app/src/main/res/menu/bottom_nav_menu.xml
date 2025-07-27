@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_llm"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="LLMs" />
+    <item
+        android:id="@+id/nav_daily_logs"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Daily Logs" />
+    <item
+        android:id="@+id/nav_file_upload"
+        android:icon="@android:drawable/ic_menu_upload"
+        android:title="File Upload" />
+</menu> 

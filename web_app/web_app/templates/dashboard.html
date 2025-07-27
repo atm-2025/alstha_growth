@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ML Dashboard</title>
+</head>
+<body>
+    <h1>Latest ML Result</h1>
+    {% if result.filename %}
+        <img src="/uploads/{{ result.filename }}" alt="Uploaded Image" style="max-width:300px;"><br>
+        <strong>Result:</strong> {{ result.text }}
+    {% else %}
+        <p>No result yet.</p>
+    {% endif %}
+
+    <hr>
+    <h2>YouTube Downloader</h2>
+    <div>
+        <form id="yt-mp3-form">
+            <label>Single Video to MP3:</label>
+            <input type="text" name="url" placeholder="YouTube link" required>
+            <button type="submit">Download MP3</button>
+        </form>
+        <form id="yt-mp4-form">
+            <label>Single Video to MP4:</label>
+            <input type="text" name="url" placeholder="YouTube link" required>
+            <button type="submit">Download MP4</button>
+        </form>
+        <form id="yt-playlist-mp3-form">
+            <label>Playlist to MP3 (bulk):</label>
+            <input type="text" name="url" placeholder="Playlist link" required>
+            <button type="submit">Download Playlist MP3</button>
+        </form>
+        <form id="yt-playlist-mp4-form">
+            <label>Playlist to MP4 (bulk):</label>
+            <input type="text" name="url" placeholder="Playlist link" required>
+            <button type="submit">Download Playlist MP4</button>
+        </form>
+        <div id="yt-status" style="margin-top:1em;color:green;"></div>
+    </div>
+    <script>
+    function handleYtForm(formId, endpoint) {
+        document.getElementById(formId).onsubmit = async function(e) {
+            e.preventDefault();
+            const form = e.target;
+            const data = new FormData(form);
+            document.getElementById('yt-status').textContent = 'Processing...';
+            try {
+                const resp = await fetch(endpoint, {
+                    method: 'POST',
+                    body: data
+                });
+                const result = await resp.json();
+                if (resp.ok) {
+                    document.getElementById('yt-status').textContent = result.message || 'Success!';
+                } else {
+                    document.getElementById('yt-status').textContent = result.error || 'Error.';
+                }
+            } catch (err) {
+                document.getElementById('yt-status').textContent = 'Request failed.';
+            }
+        };
+    }
+    handleYtForm('yt-mp3-form', '/convert/yt-mp3');
+    handleYtForm('yt-mp4-form', '/convert/yt-mp4');
+    handleYtForm('yt-playlist-mp3-form', '/convert/yt-playlist-mp3');
+    handleYtForm('yt-playlist-mp4-form', '/convert/yt-playlist-mp4');
+    </script>
+</body>
+</html> 
