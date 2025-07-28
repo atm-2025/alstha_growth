@@ -17,7 +17,7 @@ class ConnectionManager private constructor(private val context: Context) {
     companion object {
         private const val TAG = "ConnectionManager"
         private const val PRIMARY_IP = "192.168.1.111"
-        private const val SECONDARY_IP = "192.168.1.112"
+        private const val SECONDARY_IP = "192.168.1.210"
         private const val PORT = "5000"
         private const val TIMEOUT_SECONDS = 3L
         
@@ -73,7 +73,7 @@ class ConnectionManager private constructor(private val context: Context) {
                     return@launch
                 }
                 
-                // If primary is not reachable, try secondary IP (192.168.1.112)
+                // If primary is not reachable, try secondary IP (192.168.1.210)
                 if (isServerReachable(SECONDARY_IP)) {
                     currentServerIp = SECONDARY_IP
                     Log.d(TAG, "Connected to secondary server: $SECONDARY_IP")
